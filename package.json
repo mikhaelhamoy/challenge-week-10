@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Takes in information about employees on a software engineering team and generates and HTML webpage that displays summaries for each person.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhaelhamoy/challenge-week-10.git"
+  },
+  "author": "Mikhael Hamoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikhaelhamoy/challenge-week-10/issues"
+  },
+  "homepage": "https://github.com/mikhaelhamoy/challenge-week-10#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.1.0"
+  }
+}
