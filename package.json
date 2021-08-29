@@ -2,7 +2,7 @@
   "name": "team-profile-generator",
   "version": "1.0.0",
   "description": "Takes in information about employees on a software engineering team and generates and HTML webpage that displays summaries for each person.",
-  "main": "app.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
