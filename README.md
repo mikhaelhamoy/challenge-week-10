@@ -19,8 +19,8 @@ This is a command-line application that accepts user input to generate a team pr
   
 ## Usage
 
-[Demo Video](https://youtu.be/S1TNlcb79-0)
-[Sample HTML File](./dist/team-profile)
+* [Demo Video](https://youtu.be/S1TNlcb79-0)
+* [Sample HTML File](./dist/team-profile)
 
 ## Contributing 
  
