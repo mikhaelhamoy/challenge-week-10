@@ -29,7 +29,7 @@ const generatePage = (manager, engineers, interns) => {
                         Email: <a href = "mailto: ${manager.getEmail()}">${manager.getEmail()}</a>
                     </div>
                     <div class="bg-white mx-2 my-1 px-3 py-2">
-                        Office Number: ${manager.officeNum()}
+                        Office Number: ${manager.officeNum}
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const generatePage = (manager, engineers, interns) => {
 const generateEngineers = engineers => {
     if (engineers) {
         return `
-        ${engineers.map(({ name, id, email, github }) => {
+        ${engineers.map(({ name, id, email, gitHub }) => {
             return `
             <div class="card col-3 m-2 px-0">
                 <div class="card-header bg-primary text-light fs-4">
@@ -60,7 +60,7 @@ const generateEngineers = engineers => {
                         Email: <a href = "mailto: ${email}">${email}</a>
                     </div>
                     <div class="bg-white mx-2 my-1 px-3 py-2">
-                        GitHub: <a href = "https://github.com/${github}" target = "_blank">${github}</a>
+                        GitHub: <a href = "https://github.com/${gitHub}" target = "_blank">${gitHub}</a>
                     </div>
                 </div>
             </div>
